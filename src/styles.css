@@ -1,0 +1,38 @@
+.logo {
+    float: left;
+    padding: 20px;
+    font-size: 2em;
+}
+
+.navbar {
+    display: flex;
+    padding: 30px;
+    background-color: #c9f0df;
+    height: 40px;
+}
+
+.navbar > div {
+    margin-right: 10px;
+    font-size: 1.4em;
+    height: 30px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    transition: border 0.4s;
+}
+
+.navbar > div a {
+    color: #434a54;
+    text-decoration: none;
+    transition: color 0.4s;
+    padding: 10px;
+}
+
+.navbar > div:hover {
+    border: 1px solid #3f8abf;
+    border-radius: 10px;
+}
+
+.navbar > div a:hover {
+    color: #3f8abf;
+    border-spacing: 15px;
+}
