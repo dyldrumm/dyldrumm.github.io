@@ -14,12 +14,16 @@ body{
     background-color: #7798c9;
     height: 40px;
     border-radius: 25px;
+    padding: 30px;
+    background-color: #c9f0df;
+    height: 40px;
 }
 
 .navbar > div {
     margin-right: 10px;
     font-size: 1.5em;
     font-family: Helvetica;
+    font-size: 1.4em;
     height: 30px;
     border: 1px solid transparent;
     border-radius: 10px;
@@ -35,10 +39,12 @@ body{
 
 .navbar > div:hover {
     border: 1px solid black;
+    border: 1px solid #3f8abf;
     border-radius: 10px;
 }
 
 .navbar > div a:hover {
     color: black;
+    color: #3f8abf;
     border-spacing: 15px;
 }
