@@ -1,0 +1,44 @@
+body{
+    background-color: #ededdf;
+}
+
+.logo {
+    float: left;
+    padding: 20px;
+    font-size: 2em;
+}
+
+.navbar {
+    display: flex;
+    padding: 18px;
+    background-color: #7798c9;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.navbar > div {
+    margin-right: 10px;
+    font-size: 1.5em;
+    font-family: Helvetica;
+    height: 30px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    transition: border 0.4s;
+}
+
+.navbar > div a {
+    color: #434a54;
+    text-decoration: none;
+    transition: color 0.4s;
+    padding: 10px;
+}
+
+.navbar > div:hover {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.navbar > div a:hover {
+    color: black;
+    border-spacing: 15px;
+}
