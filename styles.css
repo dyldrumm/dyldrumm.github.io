@@ -13,9 +13,9 @@ body{
 .navbar {
     display: flex;
     padding: 20px;
-    background-color: #7798c9;
     height: 25px;
     border-radius: 25px;
+    background-color: #c8e6e0;
     height: 35px;
 }
 
