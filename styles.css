@@ -6,44 +6,45 @@ body{
 .logo {
     float: left;
     padding: 15px;
-    font-size: 2em;
+    font-size: 2.2em;
     font-weight: 600;
+    color: black
 }
 
 .navbar {
     display: flex;
     padding: 20px;
-    height: 25px;
+    height: 30px;
     border-radius: 25px;
-    background-color: #c8e6e0;
+    background-color: #c1e2e3;
     height: 35px;
 }
 
-.navbar > div {
+.navbar-txt {
     margin-right: 10px;
     font-family: Helvetica;
     font-size: 1.4em;
     height: 20px;
     border: 1px solid transparent;
-    padding-bottom: 6px;
+    padding-bottom: 8px;
     border-radius: 10px;
 }
 
-.navbar > div a {  /* Navbar links */
+.navbar-txt a {  /* Navbar links */
     color: black;
     text-decoration: none;
     transition: color 0.4s;
     padding: 8px; /* Navbar links padding */
+    padding-left: 9px;
 }
 
-.navbar > div:hover {  /* Navbar elements hover */
+.navbar-txt:hover {  /* Navbar elements hover */
     border: 1px solid #3f8abf;
     transition: border 0.4s;
     border-radius: 12px;
 }
 
-.navbar > div a:hover {  /* Navbar links hover */
-    padding-bottom: 6px;
+.navbar-txt a:hover{  /* Navbar links hover */
     color: #3f8abf;
     border-spacing: 20px;
 }
@@ -68,11 +69,6 @@ body{
     border-radius: 5px;
 }
 
-.portfolio-img: hover {
-    transition: 1.5s;
-    filter: brightness(20%);
-}
-
 .portfolio-content {
     postition: absolute;
     top: 0;
@@ -93,11 +89,11 @@ body{
 }
 
 .portfolio-txt {
-    transition: 4s;
+    transition: 3s;
     color: transparent;
     font-size: 1.3em;
-     font-weight: 600;
-     font-family: Helvetica;
+    font-weight: 600;
+    font-family: Helvetica;
 }
 
 .portfolio-content:hover .portfolio-txt {
