@@ -1,50 +1,111 @@
 body{
     background-color: #ededdf;
+
 }
 
 .logo {
     float: left;
-    padding: 20px;
+    padding: 15px;
     font-size: 2em;
+    font-weight: 600;
 }
 
 .navbar {
     display: flex;
-    padding: 18px;
+    padding: 20px;
     background-color: #7798c9;
-    height: 40px;
+    height: 25px;
     border-radius: 25px;
-    padding: 30px;
-    background-color: #c9f0df;
-    height: 40px;
+    background-color: #c8e6e0;
+    height: 35px;
 }
 
 .navbar > div {
     margin-right: 10px;
-    font-size: 1.5em;
     font-family: Helvetica;
     font-size: 1.4em;
-    height: 30px;
+    height: 20px;
     border: 1px solid transparent;
+    padding-bottom: 6px;
     border-radius: 10px;
-    transition: border 0.4s;
 }
 
-.navbar > div a {
-    color: #434a54;
+.navbar > div a {  /* Navbar links */
+    color: black;
     text-decoration: none;
     transition: color 0.4s;
-    padding: 10px;
+    padding: 8px; /* Navbar links padding */
 }
 
-.navbar > div:hover {
-    border: 1px solid black;
+.navbar > div:hover {  /* Navbar elements hover */
     border: 1px solid #3f8abf;
-    border-radius: 10px;
+    transition: border 0.4s;
+    border-radius: 12px;
 }
 
-.navbar > div a:hover {
-    color: black;
+.navbar > div a:hover {  /* Navbar links hover */
+    padding-bottom: 6px;
     color: #3f8abf;
-    border-spacing: 15px;
+    border-spacing: 20px;
 }
+
+.portfolio-grid {
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio-item{
+    postition: relative;
+    margin: 2px;
+}
+
+.portfolio-img {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.portfolio-img: hover {
+    transition: 1.5s;
+    filter: brightness(20%);
+}
+
+.portfolio-content {
+    postition: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: black;
+}
+
+.portfolio-logo {
+
+
+}
+
+.portfolio-txt {
+    transition: 4s;
+    color: transparent;
+    font-size: 1.3em;
+     font-weight: 600;
+     font-family: Helvetica;
+}
+
+.portfolio-content:hover .portfolio-txt {
+    transition: 1s;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: Helvetica;
+    color: grey;
+}
+
